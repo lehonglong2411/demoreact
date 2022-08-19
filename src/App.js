@@ -1,14 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Avatar from "./components/avatar";
+import DemoProps from "./components/props";
+import DemoState from "./components/state";
+
+
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Avatar />
+        <DemoProps ten={"Nguyen Thi Dinh"}  tuoi={56}/>
+
+        <DemoState/>
         <a
           className="App-link"
           href="https://reactjs.org"
